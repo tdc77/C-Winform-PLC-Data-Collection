@@ -4,9 +4,11 @@ A C# Windows form program to collect array data from plc
 
 
 This Project will need to be opened in Visual Studio and published so you can make into .exe program.
+You will need the libtagplc library if it doesnt transfer for you correctly, can get from nuget manager.
 I left unpublished so changes can be made ( like to start automatically if needed, I may add that feature in a checkbox later).
 For now it can accomodate up to 8 columns + datetime if wanted.  If your familiar with C# adding some more columns should be easy.
 
+Added the Test PLC file I used ( V32 ).
 
 
 ![IPAddress](https://github.com/user-attachments/assets/2db3da87-c1a7-4f75-a6b1-1a348ac84b32)
@@ -47,9 +49,11 @@ You should see data populating the gridview now as well.
 
 
 ![Datetimecb](https://github.com/user-attachments/assets/3f710463-bb77-4e79-ad15-ec98458c82c8)
+
 The Set last column as date/time will append the date/time to the end of your columns.
 
 ![Stoplogging](https://github.com/user-attachments/assets/16eb5fc0-49c8-480e-8811-ceee1f9746c9)
+
 Hit stop logging to stop logging and "connected" should now say "stopped logging"
 
 
