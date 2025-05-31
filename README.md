@@ -50,7 +50,9 @@ You should see data populating the gridview now as well.
 
 ![Datetimecb](https://github.com/user-attachments/assets/3f710463-bb77-4e79-ad15-ec98458c82c8)
 
-The Set last column as date/time will append the date/time to the end of your columns.
+The Set last column as date/time will append the date/time to the end of your columns. However if you add this after
+you create a new excel sheet ( start logging for the first time ) it will add the date time to excel and gridview
+but the excel header will not say date time.
 
 ![Stoplogging](https://github.com/user-attachments/assets/16eb5fc0-49c8-480e-8811-ceee1f9746c9)
 
