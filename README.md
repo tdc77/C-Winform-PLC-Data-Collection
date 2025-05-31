@@ -7,6 +7,7 @@ This Project will need to be opened in Visual Studio and published so you can ma
 You will need the libtagplc library if it doesnt transfer for you correctly, can get from nuget manager.
 I left unpublished so changes can be made ( like to start automatically if needed, I may add that feature in a checkbox later).
 For now it can accomodate up to 8 columns + datetime if wanted.  If your familiar with C# adding some more columns should be easy.
+Also It only collects the data if data has changed in one of the textboxes. I may add a feature to collect always or by time.
 
 Added the Test PLC file I used ( V32 ).
 
